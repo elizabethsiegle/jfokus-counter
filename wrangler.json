@@ -9,7 +9,21 @@
   "compatibility_date": "2025-01-29",
   "observability": {
     "enabled": true
-  }
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "BUTTON_COUNTER",
+        "class_name": "ButtonCounter"
+      }
+    ]
+  },
+  "migrations": [
+      {
+        "tag": "v1",
+        "new_classes": ["ButtonCounter"]
+      }
+  ]
   /**
    * Smart Placement
    * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
