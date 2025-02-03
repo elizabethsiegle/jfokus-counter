@@ -7,7 +7,7 @@ Built w/ Cursor/Claude-3.5-Sonnet ❤️
 #### Setup
 Clone the repository:
 ```bash
-git clone https://github.com/elizabethsiegle/beatswipe.git
+git clone https://github.com/elizabethsiegle/jfokus-counter.git
 ```
 Install dependencies:
 ```bash

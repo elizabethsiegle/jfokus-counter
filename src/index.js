@@ -40,7 +40,7 @@ export default {
 			});
 		}
 
-		// Handle counter endpoints
+		// Handle counter endpoints via HTTP endpoints
 		if (url.pathname.startsWith('/counter/')) {
 			const buttonId = url.pathname.split('/')[2];
 			const id = env.BUTTON_COUNTER.idFromName(buttonId);
